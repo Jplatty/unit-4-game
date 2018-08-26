@@ -1,0 +1,25 @@
+.crystal{
+    border:solid lightcoral 2px;
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 2s;
+}
+
+.crystal:hover{
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+
+}
+
+.crystals{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    width: 50px;
+    align-content: center;
+}
